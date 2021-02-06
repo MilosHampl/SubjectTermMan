@@ -1,0 +1,41 @@
+{
+  "{vendor}-{uuApp}-{uuSubApp}": {
+    "useCaseMap": {
+      "init": {
+        "realization": "api/controllers/SubjecttermmanMainController.init",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "defaultUve": {
+        "realization": "index.html",
+        "httpMethod": "GET",
+        "type": "UVE"
+      },
+      "create": {
+        "realization": "api/controllers/StudentController.create",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "get": {
+        "realization": "api/controllers/StudentController.get",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "update": {
+        "realization": "api/controllers/StudentController.update",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "delete": {
+        "realization": "api/controllers/StudentController.delete",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "list": {
+        "realization": "api/controllers/StudentController.list",
+        "httpMethod": "GET",
+        "type": "CMD"
+      }
+    }
+  }
+}
